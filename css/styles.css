@@ -1,22 +1,132 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: aliceblue;
+    background-color: #fff;
+}
+
+a {
+  text-decoration: none;
 }
  ul, ol {
     list-style-type: none;
  }
-  a {
-    text-decoration: none;
-  }
+  
   .logo {
-    
+    color: #4D5AE5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   }
   .logo-part {
+    color: #2E2F42;
+
   }
   .nav-link {
+    color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
   }
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404BBF;
+  }
+
   .address {
+    font-style: normal;
+
   }
   .address-link {
+    color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
   }
+  .address-link:hover,
+  .address-link:focus {
+    color: #404BBF;
+  }
+
+  /*====Main====*/
+  /*====Secnion-one====*/
+  .section-one {
+    background-color: #2E2F42; ;
+  }
+  .section-one-teitle {
+    color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07em;
+letter-spacing: 0.02;
+  }
+  .section-one-btn {
+   
+    border-radius: 4px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+
+/* Button Text */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5em;
+letter-spacing: 0.04;
+  }
+  .section-one-btn:hover,
+  .section-one-btn:focus {
+    border-radius: 4px;
+background: #404BBF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+/*====Section-features====*/
+.section-features{
+  background: #FFF;
+}
+.title-features {
+  color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2em;
+letter-spacing: 0.02em;
+}
+
+.text-features {
+  color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+}
+/*====Sectoin Team====*/
+.team {
+  background:#F4F4FD;
+}
+.teitle-team {
+  color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.2em;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.name-team {
+  color: #2E2F42;
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2em;
+letter-spacing: 0.02;
+}
+.text-team {
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+}
