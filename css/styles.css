@@ -1,13 +1,22 @@
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: aliceblue;
 }
- ul {
+ ul, ol {
     list-style-type: none;
  }
   a {
     text-decoration: none;
   }
-  .header-logo {
+  .logo {
     
+  }
+  .logo-part {
+  }
+  .nav-link {
+  }
+  .address {
+  }
+  .address-link {
   }
